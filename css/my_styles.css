@@ -16,7 +16,7 @@ https://coolors.co/86cb92-5f634f-485471-404e7c-6e76a5-9b9ece-cfd6ea-eee5e9-fcc8b
 html {                         /**should be add in projects always**/
     box-sizing: border-box;
 }
-*, *:before, *:after {        /**should be add in projects always**/
+*, *:before, *:after {        /**BOX MODEL FIX. should be add in projects always**/
     box-sizing: inherit;
 }
 body {
@@ -145,6 +145,7 @@ footer img {
     list-style-type: none;
     padding: 0; /***remove default space**/
     display: flex;
+    margin-top: 0;
 }
 .contact-list a {
     margin: 30px 10px;
@@ -194,9 +195,9 @@ footer p {
 }
 
 @media screen and (max-width: 689px) { /***for 689px wide and below**/
-    footer p {
+footer p {
     margin: 0;
-    }
+}
 }
 
 @media screen and (max-width: 671px) {
