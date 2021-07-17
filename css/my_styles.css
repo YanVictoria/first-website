@@ -89,7 +89,7 @@ h2 p {
 .projects{
     background: #F1F3F9;
 }
-.projects a {
+.project-item > a {
     background: #5F7095;
     color: #F1F9F3;
     text-decoration: none;
